@@ -1,0 +1,106 @@
+body{
+   
+    
+}
+
+/* Header Section  */
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 30px 200px;
+
+}
+nav ul li{
+  list-style: none;
+  margin-right: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  
+}
+nav ul{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+nav{
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cart-eycon{
+    font-size: 30px;
+    color: black;
+}
+.main-menu{
+    
+}
+.logo{
+    height: auto;
+    width: auto;
+}
+
+
+/* Banner Styles */
+.banner{
+    margin: 50px 200px;
+    display: flex;
+}
+.banner-content h2{
+    font-size: 3rem;
+    margin-top: 110px;
+}
+
+
+
+/* Plant and Card Sections */
+.our-plant h2{
+    font-size: 2.5rem;
+}
+.our-plant{
+    text-align: center;
+    margin: 50px 250px;
+}
+.card-section{
+    margin: 50px 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    
+}
+.extra{
+    margin-top: 300px;
+}
+.card img{
+    width: 270px;
+    height: 325px;
+}
+.card button{
+    height: 35px;
+    width: 100%;
+    color: white;
+    background: #E95A08;
+    border: none;
+    align-items: center;
+    padding: 5px;
+}
+.card{
+    width: 270px;
+    height: 325px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+/* Shaired Styles */
+.orange-color{
+    color: #E95A08;
+}

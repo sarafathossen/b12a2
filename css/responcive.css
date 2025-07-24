@@ -86,10 +86,16 @@
     .join-bench{
         margin-top: 100px;
     }
-    .footer{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-top: 50px;
     
+    .footer-responcive{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .social-eycon{
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        justify-content: left;
+    }
+    .five{
+        margin-left: 2px;
     }
 }

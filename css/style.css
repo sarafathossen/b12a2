@@ -158,8 +158,97 @@ nav{
 }
 
 /* Leats Deals Sections */
+.lets-deal{
+    text-align: center;
+}
+.lets-deal h2{
+    font-size: 3rem;
+}
+.lets-deal p{
+    font-size: 1.8rem;
+}
 
 
+.one{
+    background: url(../images/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 430px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; */
+    border: 1px solid black;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    opacity: 25px;
+    filter: brightness(80%);
+}
+.one-text{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.two{
+    background: url(../images/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 430px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; */
+    border: 1px solid black;
+    background-size: cover;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+.clang2{
+    background: url(../images/deal-zabo.png);
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; */
+    border: 1px solid black;
+    background-size: cover;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+.three{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.chalanging-section{
+    display: grid;
+    grid-template-columns: 430px 1fr;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.clang1{
+    
+    margin-bottom: 20px;
+}
+.one-text h3{
+    
+}
+.clng-text{
+    font-size: 2.6rem;
+    color: white;
+}
+.clng-button{
+    border: none;
+    text-decoration: underline;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+}
 
 /* Shaired Styles */
 .orange-color{

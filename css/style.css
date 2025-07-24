@@ -97,7 +97,7 @@ nav{
     /* margin: 50px 200px; */
     display: grid;
     grid-template-columns: repeat(4, 4fr);
-    width: calc(100%);
+    width: 100%;
 
     
 }
@@ -118,7 +118,7 @@ nav{
     padding: 5px;
 }
 .card{
-    width: 300px;
+    width:calc(100% - 20px);
     height: ;
     justify-content: center;
     text-align: center;

@@ -250,6 +250,45 @@ nav{
     font-size: 1.5rem;
 }
 
+/* Join Bence Sections */
+.join-bench{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    background: url(../images/news-letter-bg.png);
+    background-size: cover;
+    margin-top: 100px;
+}
+.join-branch-text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.join-branch-text input{
+    height: 30px;
+    width: 50%;
+    padding: 5px;
+    
+}
+.input-email{
+    width: 170px;
+}
+.submite-btn{
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #E95A08;
+    width: 160px;
+    /* padding: 5px; */
+}
+.join-branch-text h3{
+    font-size: 3rem;
+    color: white;
+}
+
+
+
 /* Shaired Styles */
 .orange-color{
     color: #E95A08;

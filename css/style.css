@@ -1,13 +1,24 @@
 body{
-   max-width: 1240px;
+   
    background-color: #F5F8FF;
-   margin: 0 auto;
+   
     
+}
+.max-widths{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.margin-t{
+    margin-top: 100px;
+}
+.margin-b{
+    margin-bottom: 100px;
 }
 
 /* Header Section  */
 header{
-    
+    max-width: 1240px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -134,7 +145,7 @@ nav{
     width: 500px;
  }
 .plant-img{
-   ;
+
 
 }
 .plant-text{
@@ -168,17 +179,12 @@ nav{
     font-size: 1.8rem;
 }
 
-
+/* Chalanging Sections */
 .one{
     background: url(../images/deal-bloom.png);
     background-repeat: no-repeat;
     height: 350px;
     width: 430px;
-    /* text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px; */
-    border: 1px solid black;
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -195,11 +201,7 @@ nav{
     background-repeat: no-repeat;
     height: 350px;
     width: 430px;
-    /* text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px; */
-    border: 1px solid black;
+    
     background-size: cover;
     border-radius: 20px;
     filter: brightness(80%);
@@ -209,11 +211,7 @@ nav{
     background-repeat: no-repeat;
     height: 720px;
     width: 100%;
-    /* text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px; */
-    border: 1px solid black;
+    
     background-size: cover;
     border-radius: 20px;
     filter: brightness(80%);
@@ -257,11 +255,11 @@ nav{
     
     background: url(../images/news-letter-bg.png);
     background-size: cover;
-    margin-top: 100px;
-    position: relative;
     
-    margin: 0 auto;
-    max-width: 100vw !important;
+    
+    
+    margin: 100px auto;
+    max-width:100% ;
     
     
 }
@@ -299,8 +297,11 @@ nav{
 footer{
     display: grid;
     grid-template-columns: repeat(4, 4fr);
-    margin-top: 50px;
+    margin-top: 70px;
     
+}
+.logo p{
+    font-size: 1.5rem;
 }
 .link1 a p{
     margin-bottom: 30px;
@@ -322,7 +323,7 @@ footer{
     text-decoration: none;
 }
 .five{
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .social-eycon{
    display: grid;
@@ -333,3 +334,10 @@ footer{
 .orange-color{
     color: #E95A08;
 }
+
+
+
+
+
+
+

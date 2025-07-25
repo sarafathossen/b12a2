@@ -127,8 +127,8 @@
     }
     .another{
     z-index: +1;
-    height: 600px;
-    width: 100%;
+    height: 350px;
+    width: 95%;
     margin: 0 auto;
     }
     .plant-text h3{
@@ -151,5 +151,11 @@
     }
     .plant-text ul li p{
     font-size: 1rem;
+    }
+    .two{
+        border-radius: 0px;
+    }
+    .plant-text{
+        padding: 0px;
     }
 }

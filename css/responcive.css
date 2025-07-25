@@ -158,4 +158,31 @@
     .plant-text{
         padding: 0px;
     }
+    .card img{
+    width: 100%;
+    height: 225px;
+    }
+    .join-branch-text h3{
+    font-size: 2rem;
+    color: white;
+    }.join-bench{
+    height: 300px;
+    
+    
+    background: url(../images/news-letter-bg.png);
+    background-size: cover;
+    
+    
+    
+    margin: 30px auto;
+    max-width:100% ;
+    
+    
+    }
+    .join-branch-text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    }
 }

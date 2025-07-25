@@ -98,4 +98,58 @@
     .five{
         margin-left: 2px;
     }
+    .clang2, .two, .one{
+        height: 250px;
+        width: 100%;
+    }
+    body{
+        margin: 0 auto;
+        max-width: 90%;
+
+    }
+    .three{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    }
+    .clng-text{
+        font-size: 1.5rem;
+    }
+    .clng-button{
+    
+    font-size: 1rem;
+    }
+    .one-text{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    }
+    .another{
+    z-index: +1;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .plant-text h3{
+    font-size: 2rem;
+    }
+    .banner-content h2{
+    font-size: 1.5rem;
+    margin-top: 110px;
+    }
+    .card{
+    width:calc(100% - 20px);
+    height: ;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    gap: 20px;
+    }
+    .lets-deal p{
+    font-size: 1rem;
+    }
+    .plant-text ul li p{
+    font-size: 1rem;
+    }
 }

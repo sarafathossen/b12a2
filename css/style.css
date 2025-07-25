@@ -197,7 +197,7 @@ nav{
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 20px;
-    opacity: 25px;
+    
     filter: brightness(80%);
 }
 .one-text{
